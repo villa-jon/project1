@@ -1,0 +1,69 @@
+#bColor {
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(15, 15, 15));
+   color:rgb(0, 0, 0);   
+  }
+
+#cruella-middle {
+  margin: 2rem;
+}
+
+#jasper {
+  display: flex;
+   justify-content: center;
+   background:rgb(124, 1, 1);
+   opacity: 0.8;
+   height: 7rem;
+   padding: 1rem; 
+   font-size: 83px;
+   white-space: nowrap;
+   text-align: 2rem;
+}
+
+.puppyImg {
+  display: flex;
+  justify-content: center;
+  border: rgb(255, 0, 0) 1px;
+  height: 14rem;
+  width: auto;
+}
+
+#cruella-header {
+    margin: 2rem;
+    color: rgb(211, 43, 43);
+    font-family: cursive;
+
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  bottom: 2vh;
+  text-align:center;
+  left: -114px; 
+}
+
+.cruella-style {
+  height: 2px;
+  position: relative;
+  text-align:center;
+  }
+
+.cruella-img {
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: -33vh;
+    left: 79px; 
+}
+
+.cruella-img2 {
+  /* align-items: center; */
+  left: 1050px; 
+  /* justify-content: right; */
+  font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 75vh;
+}
