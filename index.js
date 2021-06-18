@@ -114,6 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     removeComment()
 
     }) 
+
    cruelly();
 })
  

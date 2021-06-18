@@ -3,8 +3,13 @@
    color:rgb(0, 0, 0);   
   }
 
-#cruella-middle {
-  margin: 2rem;
+.puppyCard {
+  /* margin: 2rem; */
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
 }
 
 #jasper {
@@ -19,12 +24,23 @@
    text-align: 2rem;
 }
 
+.dogPic {
+  display: none;
+}
+
+.cruella-middle:hover + .dogPic {
+  display: block;
+  color: red;
+  font-size: 30px;
+}
+
 .puppyImg {
   display: flex;
   justify-content: center;
   border: rgb(255, 0, 0) 1px;
   height: 14rem;
   width: auto;
+  position: relative;
 }
 
 #cruella-header {
@@ -67,3 +83,4 @@
   position: absolute;
   bottom: 75vh;
 }
+
